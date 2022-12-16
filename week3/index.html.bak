@@ -23,5 +23,11 @@
 <p>This is a <br> paragraph with a line break.</p>
 
 <a href="https://www.w3schools.com">Visit W3Schools</a>
+
+<!-- This is a comment -->
+
+<p>This is a paragraph.</p>
+
+<!-- Remember to add more information here -->
 </body>
 </html>
