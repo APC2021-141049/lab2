@@ -29,13 +29,8 @@ img {
   background-color: maroon;
 }
 
-#bodyouter {
-  background-color: red;
-}
-
 </style>
 </head>
-<body id="bodyouter">
 <body id="bodymain">
 
 <h2></h2>
@@ -53,7 +48,5 @@ This image brings me a certain amount of joy that I can't explain. <br><br>
 Her name is Calliope Mori. <br>
 Look her up at <a href="https://www.youtube.com/results?search_query=calliope+mori" style="color:red;">YouTube</a>
 </p>
-
-</body>
 </body>
 </html>
