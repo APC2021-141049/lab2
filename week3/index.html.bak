@@ -10,11 +10,21 @@ img {
 }
 
 #paradesc {
-  background-color: black;
+  background-color: maroon;
   color: white;
   text-align: right;
   font-family: arial;
   font-size: 29px;
+  background-image: url("calli-text-background.png")
+}
+
+#paradesc2 {
+  background-color: maroon;
+  color: white;
+  text-align: left;
+  font-family: arial;
+  font-size: 29px;
+  background-image: url("porter-text-background.jpg")
 }
 
 #paratitle {
@@ -35,7 +45,7 @@ img {
 
 <h2></h2>
 
-<p id="paratitle">Introductory to See with Obligatory Calliope Imagery</p><br>
+<p id="paratitle">Student Profile Page</p><br>
 
 <p id="paradesc"><img src="calli-background.png" alt="Calliope" style="width:300px;height:403px;margin-left:15px;">
 My name is Sean Aldrich E. Arceo.<br>
@@ -48,5 +58,14 @@ This image brings me a certain amount of joy that I can't explain. <br><br>
 Her name is Calliope Mori. <br>
 Look her up at <a href="https://www.youtube.com/results?search_query=calliope+mori" style="color:red;">YouTube</a>
 </p>
+
+<p id="paradesc2"><img src="porter-background.jpg" alt="Porter" style="width:250px;height:403px;margin-right:15px;float:left;">
+My hobby stems from finding out about Porter Robinson<br>
+He is an American music producer that produces EDM music.<br><br>
+However, his music does not follow the same formula as other EDM music;<br>
+invoking certain emotions, whether it's melancholic or hopeful.<br>
+Look him up at <a href="https://www.youtube.com/results?search_query=porter+robinson" style="color:white;">YouTube</a> and you won't regret it.<br><br><br><br><br>
+</p>
+
 </body>
 </html>
