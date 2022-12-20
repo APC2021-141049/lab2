@@ -8,14 +8,12 @@ body {
 }
 
 h1 {
-  color: white;
   text-align: center;
   font-family: arial;
   font-size: 48px;
 }
 
 h2 {
-  color: white;
   text-align: center;
   font-family: arial;
   font-size: 36px;
@@ -26,6 +24,15 @@ p {
   font-size: 20px;
   text-align: center;
 }
+
+.center {
+  color: white;
+}
+
+* {
+  align: center;
+}
+
 </style>
 </head>
 
