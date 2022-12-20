@@ -1,48 +1,59 @@
-<!DOCTYPE html>
 <html>
 <head>
-<title>Introduction Page - Sean Aldrich E. Arceo</title>
 <style>
-/* Is the one piece real? */
-body {
+/* The One Piece is Real */
+img {
+  position: relative;
+  float: right;
+  top: -100px;
+  padding: 100px;
+}
+
+#paradesc {
+  background-color: black;
+  color: white;
+  text-align: right;
+  font-family: arial;
+  font-size: 29px;
+}
+
+#paratitle {
+  background-color: black;
+  color: white;
+  text-align: left;
+  font-family: impact;
+  font-size: 60px;
+}
+
+#bodymain {
   background-color: maroon;
 }
 
-h1 {
-  text-align: center;
-  font-family: arial;
-  font-size: 48px;
-}
-
-h2 {
-  text-align: center;
-  font-family: arial;
-  font-size: 36px;
-}
-
-p {
-  font-family: helvetica;
-  font-size: 20px;
-  text-align: center;
-}
-
-* {
-  color: white;
+#bodyouter {
+  background-color: red;
 }
 
 </style>
 </head>
+<body id="bodyouter">
+<body id="bodymain">
 
-<body>
+<h2></h2>
 
-<h1>My name is Sean Aldrich E. Arceo</h1><br>
-<h2>My birthday is on November 29, 2001</h2><br>
-<h2>I am currently 21 years old</h2><br>
-<p>My favorite hobbies are making music and playing games</p><br>
-<!--The One Piece is indeed real-->
+<p id="paratitle">Introductory to See with Obligatory Calliope Imagery</p><br>
 
-<p style="color:maroon;">THE ONE PIECE IS REAL</p><br>
-<img src="calli-background.png" alt="Calliope">
+<p id="paradesc"><img src="calli-background.png" alt="Calliope" style="width:300px;height:403px;margin-left:15px;">
+My name is Sean Aldrich E. Arceo.<br>
+People call me "Sean", "Aldrich", or "Arceo" depending on the person. <br><br>
+My favorite hobbies include a variety of things to do online and offline. <br>
+I like to play video games online while dabbling on some sports some times.<br>
+I also make music with software like FL Studio while also playing instruments like the guitar or the piano. <br><br> 
+I like this image. <br>
+This image brings me a certain amount of joy that I can't explain. <br><br>
+Her name is Calliope Mori. <br>
+Look her up at <a href="https://www.youtube.com/results?search_query=calliope+mori" style="color:red;">YouTube</a>
+</p>
 
+</body>
 </body>
 </html>
