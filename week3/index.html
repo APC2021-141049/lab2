@@ -1,130 +1,9 @@
 <html>
 <head>
-<style>
-.tab div {
-	display: none;
-}
-.tab div:target {
-	display: block;
-}
-#header_name{
-	display:block;
-	font-size:42px;
-	font-family:'Trebuchet MS',sans-serif;
-	background-color:black;
-	color:white;
-}
-#header_profile_name{
-	display:block;
-	font-size:30px;
-	font-family:'Trebuchet MS',sans-serif;
-	background-color:rgba(25, 25, 25, 1);
-	color:white;
-}
-#main_body{
-	background:url("uRushyan-reddit.png");
-	background-size: cover;
-	background-repeat:no-repeat;
-}
-a:link{
-	text-decoration: none;
-}
+<link rel="stylesheet" type="text/css" href="searceo_style.css" /> 
+<link rel="icon" href="profile_picture.png" />
 
-a:visited{
-	text-decoration: none;
-}
-
-a:hover{
-	text-decoration: underline;
-}
-
-a:active{
-	text-decoration: none;
-}
-a{
-	color:black;
-	font-family:'Trebuchet MS',sans-serif;
-	font-size:30px;
-	padding: 0px 120px;
-}
-#bababooey{
-}
-#profile_links{
-	background-color:white;
-}
-#main_content{
-	float:left;
-	background-color:rgba(200, 200, 200, 1);
-	border-style:ridge;
-}
-#info_content{
-	float:left;
-	background-color:rgba(200, 200, 200, 1);
-	border-style:ridge;
-}
-#hobby_content{
-	float:left;
-	background-color:rgba(200, 200, 200, 1);
-	border-style:ridge;
-}
-#goal_content{
-	float:left;
-	background-color:rgba(200, 200, 200, 1);
-	border-style:ridge;
-}
-#works_content{
-	float:left;
-	background-color:rgba(200, 200, 200, 1);
-	border-style:ridge;
-}
-#profile_img{
-	border-style:ridge;
-	background-color:rgba(220, 220, 220, 0.9);
-	margin-top: 10px;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-bottom: 10px;
-	padding-top: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 20px;
-}
-#profile_para1{
-	font-family:'Trebuchet MS',sans-serif;
-	float:right;
-	border-style:inset;
-	font-size:20px;
-	margin-top: 20px;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-bottom: 20px;
-}
-#profile_para2{
-	font-family:'Trebuchet MS',sans-serif;
-	float:right;
-	border-style:inset;
-	font-size:20px;
-	margin-top: 10px;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-bottom: 10px;
-}
-#bababooey{
-	font-family:'Trebuchet MS',sans-serif;
-	font-size:20px;
-	text-decoration:none;
-}
-.button{
-	background-color:rgba(225, 0, 225, 1); 
-	border: none;
-	color: white;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-}
-</style>
+<title>Profile Page</title>
 </head>
 
 <body id="main_body">
@@ -159,7 +38,7 @@ My name is Sean Aldrich E. Arceo.<br><br><br>
 I am currently 21 years old.<br><br>
 I have been studying in APC for 2 years in the section of SF211.<br><br>
 I still have a long way to go in becoming a better programmer and a better person.<br><br><br>
-I like saying<a href="https://www.youtube.com/watch?v=ia3Tc9FTgk0", id="bababooey">"bababooey"</a>a lot.<br><br>
+I like saying<a href="bababooey.mp3", id="bababooey", target="_blank">"bababooey"</a>a lot.<br><br>
 
 </p>
 </div>
@@ -169,7 +48,7 @@ I like saying<a href="https://www.youtube.com/watch?v=ia3Tc9FTgk0", id="bababooe
 <p id="profile_para2">
 My favorite hobby of all time is making music.<br><br><br>
 I've been deeply inspired by Porter Robinson and Snail's House to making music since High School.<br><br><br>
-Even the background to this website is using an image from the<a href="https://www.reddit.com/r/porterrobinson/comments/qfikku/i_made_a_nurture_inspired_wallpaper/", id="bababooey">r/porterrobinson subreddit</a>made by the user u/Rushyan.<br><br><br>
+Even the background to this website is using an image from the<a href="https://www.reddit.com/r/porterrobinson/comments/qfikku/i_made_a_nurture_inspired_wallpaper/", id="bababooey", target="_blank">r/porterrobinson subreddit</a>made by the user u/Rushyan.<br><br><br>
 I also like to play video games and various outdoor sports.<br><br><br>
 I also dabble in a bit of drawing but I've unfortunately forgone that hobby years ago.
 </p>
@@ -186,16 +65,29 @@ My current goal is to simply graduate from College.<br><br>
 <div id="works_content">
 <img src="profile_picture.png", id="profile_img"></img>
 <p id="profile_para2">
+<audio id="porter_audio">
+  <source src="porter.mp3" type="audio/mpeg">
+</audio>
+<audio id="mumei_audio">
+  <source src="mumei.mp3" type="audio/mpeg">
+</audio>
 These are the current works that I've managed to keep regarding my music background.<br><br><br>
-- Porter Robinson:<a href="https://www.youtube.com/watch?v=FZ7kV3ZzD38", id="bababooey">Sad Machine (Live)</a>[Remake]<br><br><br>
-- Nanashi Mumei Ch. :<a href="https://www.youtube.com/watch?v=RRq4-uktHiI", id="bababooey">Dan Dan Don Don</a>[Edited]<br><br><br>
-The links are for the originals that I've based my work around.<br><br><br>
-My works are files that you can request for.
+- Porter Robinson:<a href="https://www.youtube.com/watch?v=FZ7kV3ZzD38", id="bababooey", target="_blank">Sad Machine (Live)</a><br><br><br>
+- Nanashi Mumei Ch. :<a href="https://www.youtube.com/watch?v=RRq4-uktHiI", id="bababooey", target="_blank">Dan Dan Don Don</a><br><br><br>
+The links are for the originals that I've based my work around.<br><br><br><br>
+My Works<br><br>
+Porter Robinson - Sad Machine (Live) [Remake]<br>
+<button onclick="playAudio1()", type="button", id="work_button">Play</button>
+<button onclick="pauseAudio1()", type="button", id="work_button">Pause</button><br><br>
+<script type = "text/javascript" src = "searceo_function.js"></script>
+<br>Nanashi Mumei Ch. - Dan Dan Don Don ['Uncanny']<br>
+<button onclick="playAudio2()", type="button", id="work_button">Play</button>
+<button onclick="pauseAudio2()", type="button", id="work_button">Pause</button><br>
+<script type = "text/javascript" src = "searceo_function.js"></script>
 </p>
 </div>
 
 </div>
-
 </body>
 
 </html>
