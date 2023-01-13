@@ -1,7 +1,7 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="searceo_style.css" /> 
-<link rel="icon" href="image\profile_picture.png" />
+<link rel="icon" href="image/profile_picture.png" />
 <title>Profile Page</title>
 </head>
 
@@ -21,7 +21,7 @@
 <br><br><br><br><br>
 <div class="tab">
 <div id="main_content">
-<img src="image\profile_picture.png", id="profile_img"></img>
+<img src="image/profile_picture.png", id="profile_img"></img>
 <p id="profile_para1">
 My name is Sean Aldrich E. Arceo.<br><br><br>
 I am a student of Asia Pacific College, currently taking a major in Cyber Security and Forensics.<br><br><br>
@@ -31,7 +31,7 @@ Feel free to naviagate the web page in its entirety through the links above.<br>
 </div>
 
 <div id="info_content">
-<img src="image\profile_picture.png", id="profile_img"></img>
+<img src="image/profile_picture.png", id="profile_img"></img>
 <p id="profile_para1">
 My name is Sean Aldrich E. Arceo.<br><br><br>
 I am currently 21 years old.<br><br>
@@ -43,7 +43,7 @@ I like saying<a href="audio/bababooey.mp3", id="bababooey", target="_blank">"bab
 </div>
 
 <div id="hobby_content">
-<img src="image\profile_picture.png", id="profile_img"></img>
+<img src="image/profile_picture.png", id="profile_img"></img>
 <p id="profile_para2">
 My favorite hobby of all time is making music.<br><br><br>
 I've been deeply inspired by Porter Robinson and Snail's House to making music since High School.<br><br><br>
@@ -54,10 +54,10 @@ I also dabble in a bit of drawing but I've unfortunately forgone that hobby year
 </div>
 
 <div id="goal_content">
-<img src="image\profile_picture.png", id="profile_img"></img>
+<img src="image/profile_picture.png", id="profile_img"></img>
 <p id="profile_para2">
 <audio id="hidehobby_booey">
-  <source src="audio\bababooey.mp3" type="audio/mpeg">
+  <source src="audio/bababooey.mp3" type="audio/mpeg">
 </audio>
 To keep it plain and simple...<br><br><br>
 My current goal is to simply graduate from College.<br><br><br>
@@ -68,13 +68,13 @@ No secrets or strings, that's all it is.<br>
 </div>
 
 <div id="works_content">
-<img src="image\profile_picture.png", id="profile_img2"></img>
+<img src="image/profile_picture.png", id="profile_img2"></img>
 <p id="profile_para2">
 <audio id="porter_audio">
-  <source src="audio\porter.mp3" type="audio/mpeg">
+  <source src="audio/porter.mp3" type="audio/mpeg">
 </audio>
 <audio id="mumei_audio">
-  <source src="audio\mumei.mp3" type="audio/mpeg">
+  <source src="audio/mumei.mp3" type="audio/mpeg">
 </audio>
 These are the current works that I've managed to keep regarding my music background.<br><br><br>
 - Porter Robinson:<a href="https://www.youtube.com/watch?v=FZ7kV3ZzD38", id="bababooey", target="_blank">Sad Machine (Live)</a><br><br><br>

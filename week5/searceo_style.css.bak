@@ -20,7 +20,7 @@
 	color: white;
 }
 #main_body{
-	background:url("image\uRushyan-reddit.png");
+	background:url("image/uRushyan-reddit.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
