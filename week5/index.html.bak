@@ -1,0 +1,98 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="searceo_style.css" /> 
+<link rel="icon" href="image\profile_picture.png" />
+<title>Profile Page</title>
+</head>
+
+<body id="main_body">
+<div id="header_name">Asia Pacific College</div>
+<div id="header_profile_name">Student Profile Page</div>
+
+<div id="profile_links">
+
+<a href="#main_content">INTRODUCTION</a>
+<a href="#info_content">INFORMATION</a>
+<a href="#hobby_content">HOBBIES</a>
+<a href="#goal_content">GOALS</a>
+<a href="#works_content">WORKS</a>
+</div>
+
+<br><br><br><br><br>
+<div class="tab">
+<div id="main_content">
+<img src="image\profile_picture.png", id="profile_img"></img>
+<p id="profile_para1">
+My name is Sean Aldrich E. Arceo.<br><br><br>
+I am a student of Asia Pacific College, currently taking a major in Cyber Security and Forensics.<br><br><br>
+This page was made to showcase the usage of GitHub repositories and knowledge in HTML and CSS coding of individual students.<br><br><br>
+Feel free to naviagate the web page in its entirety through the links above.<br><br>
+</p>
+</div>
+
+<div id="info_content">
+<img src="image\profile_picture.png", id="profile_img"></img>
+<p id="profile_para1">
+My name is Sean Aldrich E. Arceo.<br><br><br>
+I am currently 21 years old.<br><br>
+I have been studying in APC for 2 years in the section of SF211.<br><br>
+I still have a long way to go in becoming a better programmer and a better person.<br><br><br>
+I like saying<a href="audio/bababooey.mp3", id="bababooey", target="_blank">"bababooey"</a>a lot.<br><br>
+
+</p>
+</div>
+
+<div id="hobby_content">
+<img src="image\profile_picture.png", id="profile_img"></img>
+<p id="profile_para2">
+My favorite hobby of all time is making music.<br><br><br>
+I've been deeply inspired by Porter Robinson and Snail's House to making music since High School.<br><br><br>
+Even the background to this website is using an image from the<a href="https://www.reddit.com/r/porterrobinson/comments/qfikku/i_made_a_nurture_inspired_wallpaper/", id="bababooey", target="_blank">r/porterrobinson subreddit</a>made by the user u/Rushyan.<br><br><br>
+I also like to play video games and various outdoor sports.<br><br><br>
+I also dabble in a bit of drawing but I've unfortunately forgone that hobby years ago.
+</p>
+</div>
+
+<div id="goal_content">
+<img src="image\profile_picture.png", id="profile_img"></img>
+<p id="profile_para2">
+<audio id="hidehobby_booey">
+  <source src="audio\bababooey.mp3" type="audio/mpeg">
+</audio>
+To keep it plain and simple...<br><br><br>
+My current goal is to simply graduate from College.<br><br><br>
+No secrets or strings, that's all it is.<br>
+<button onclick="playAudio3()", type="button", id="hidehobby_button">Secret</button>
+<script type = "text/javascript" src = "searceo_function.js"></script>
+</p>
+</div>
+
+<div id="works_content">
+<img src="image\profile_picture.png", id="profile_img2"></img>
+<p id="profile_para2">
+<audio id="porter_audio">
+  <source src="audio\porter.mp3" type="audio/mpeg">
+</audio>
+<audio id="mumei_audio">
+  <source src="audio\mumei.mp3" type="audio/mpeg">
+</audio>
+These are the current works that I've managed to keep regarding my music background.<br><br><br>
+- Porter Robinson:<a href="https://www.youtube.com/watch?v=FZ7kV3ZzD38", id="bababooey", target="_blank">Sad Machine (Live)</a><br><br><br>
+- Nanashi Mumei Ch. :<a href="https://www.youtube.com/watch?v=RRq4-uktHiI", id="bababooey", target="_blank">Dan Dan Don Don</a><br><br><br>
+The links are for the originals that I've based my work around.<br><br><br><br>
+My Works<br><br>
+Porter Robinson - Sad Machine (Live) [Remake]<br>
+<button onclick="playAudio1()", type="button", id="work_button">Play</button>
+<button onclick="pauseAudio1()", type="button", id="work_button">Pause</button><br><br>
+<script type = "text/javascript" src = "searceo_function.js"></script>
+<br>Nanashi Mumei Ch. - Dan Dan Don Don ['Uncanny']<br>
+<button onclick="playAudio2()", type="button", id="work_button">Play</button>
+<button onclick="pauseAudio2()", type="button", id="work_button">Pause</button><br>
+<script type = "text/javascript" src = "searceo_function.js"></script>
+<br><br>If you notice, the current image changes based on which music is currently playing.
+</p>
+</div>
+</div>
+</body>
+
+</html>
