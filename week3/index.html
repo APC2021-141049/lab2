@@ -2,7 +2,6 @@
 <head>
 <link rel="stylesheet" type="text/css" href="searceo_style.css" /> 
 <link rel="icon" href="profile_picture.png" />
-
 <title>Profile Page</title>
 </head>
 
@@ -57,13 +56,19 @@ I also dabble in a bit of drawing but I've unfortunately forgone that hobby year
 <div id="goal_content">
 <img src="profile_picture.png", id="profile_img"></img>
 <p id="profile_para2">
+<audio id="hidehobby_booey">
+  <source src="bababooey.mp3" type="audio/mpeg">
+</audio>
 To keep it plain and simple...<br><br><br>
-My current goal is to simply graduate from College.<br><br>
+My current goal is to simply graduate from College.<br><br><br>
+No secrets or strings, that's all it is.<br>
+<button onclick="playAudio3()", type="button", id="hidehobby_button">Secret</button>
+<script type = "text/javascript" src = "searceo_function.js"></script>
 </p>
 </div>
 
 <div id="works_content">
-<img src="profile_picture.png", id="profile_img"></img>
+<img src="profile_picture.png", id="profile_img2"></img>
 <p id="profile_para2">
 <audio id="porter_audio">
   <source src="porter.mp3" type="audio/mpeg">
@@ -84,9 +89,9 @@ Porter Robinson - Sad Machine (Live) [Remake]<br>
 <button onclick="playAudio2()", type="button", id="work_button">Play</button>
 <button onclick="pauseAudio2()", type="button", id="work_button">Pause</button><br>
 <script type = "text/javascript" src = "searceo_function.js"></script>
+<br><br>If you notice, the current image changes based on which music is currently playing.
 </p>
 </div>
-
 </div>
 </body>
 

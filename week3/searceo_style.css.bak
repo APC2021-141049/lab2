@@ -6,23 +6,23 @@
 	display: block;
 }
 #header_name{
-	display:block;
-	font-size:42px;
+	display: block;
+	font-size: 42px;
 	font-family:'Trebuchet MS',sans-serif;
-	background-color:black;
-	color:white;
+	background-color: black;
+	color: white;
 }
 #header_profile_name{
-	display:block;
-	font-size:30px;
+	display: block;
+	font-size: 30px;
 	font-family:'Trebuchet MS',sans-serif;
-	background-color:rgba(25, 25, 25, 1);
-	color:white;
+	background-color: rgba(25, 25, 25, 1);
+	color: white;
 }
 #main_body{
 	background:url("uRushyan-reddit.png");
 	background-size: cover;
-	background-repeat:no-repeat;
+	background-repeat: no-repeat;
 }
 a:link{
 	text-decoration: none;
@@ -40,44 +40,56 @@ a:active{
 	text-decoration: none;
 }
 a{
-	color:black;
+	color: black;
 	font-family:'Trebuchet MS',sans-serif;
-	font-size:30px;
+	font-size: 30px;
 	padding: 0px 120px;
 }
 #bababooey{
 }
 #profile_links{
-	background-color:white;
+	background-color: white;
 }
 #main_content{
-	float:left;
-	background-color:rgba(200, 200, 200, 1);
-	border-style:ridge;
+	float: left;
+	background-color: rgba(200, 200, 200, 1);
+	border-style: ridge;
 }
 #info_content{
-	float:left;
-	background-color:rgba(200, 200, 200, 1);
-	border-style:ridge;
+	float: left;
+	background-color: rgba(200, 200, 200, 1);
+	border-style: ridge;
 }
 #hobby_content{
-	float:left;
-	background-color:rgba(200, 200, 200, 1);
-	border-style:ridge;
+	float: left;
+	background-color: rgba(200, 200, 200, 1);
+	border-style: ridge;
 }
 #goal_content{
-	float:left;
-	background-color:rgba(200, 200, 200, 1);
-	border-style:ridge;
+	float: left;
+	background-color: rgba(200, 200, 200, 1);
+	border-style: ridge;
 }
 #works_content{
-	float:left;
-	background-color:rgba(200, 200, 200, 1);
-	border-style:ridge;
+	float: left;
+	background-color: rgba(200, 200, 200, 1);
+	border-style: ridge;
 }
 #profile_img{
-	border-style:ridge;
-	background-color:rgba(220, 220, 220, 0.9);
+	border-style: ridge;
+	background-color: rgba(220, 220, 220, 0.9);
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+#profile_img2{
+	border-style: ridge;
+	background-color: rgba(220, 220, 220, 0.9);
 	margin-top: 10px;
 	margin-left: 10px;
 	margin-right: 10px;
@@ -89,9 +101,9 @@ a{
 }
 #profile_para1{
 	font-family:'Trebuchet MS',sans-serif;
-	float:right;
-	border-style:inset;
-	font-size:20px;
+	float: right;
+	border-style: inset;
+	font-size: 20px;
 	margin-top: 20px;
 	margin-left: 20px;
 	margin-right: 20px;
@@ -99,8 +111,8 @@ a{
 }
 #profile_para2{
 	font-family:'Trebuchet MS',sans-serif;
-	float:right;
-	border-style:inset;
+	float: right;
+	border-style: inset;
 	font-size:20px;
 	margin-top: 10px;
 	margin-left: 10px;
@@ -113,9 +125,9 @@ a{
 	text-decoration:none;
 }
 #work_button{
-	float:left;
-	font-family:'Trebuchet MS',sans-serif
-	background-color:rgba(0, 0, 0, 1);
+	float: left;
+	background-color: rgba(0, 0, 0, 1);
+	font-family:'Trebuchet MS',sans-serif;
 	border: none;
 	color: white;
 	padding: 15px 32px;
@@ -124,5 +136,35 @@ a{
 	display: inline-block;
 	font-size: 16px;
 	margin: 4px 2px;
+	cursor: pointer;
+}
+#hidehobby_button{
+	float: left;
+	background-color: rgba(200, 200, 200, 1);
+	font-family:'Trebuchet MS',sans-serif;
+	border: none;
+	color: rgba(200, 200, 200, 1);
+	padding: 10px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 1px 1px;
+	cursor: pointer;
+	position: relative;
+	left: 390px;
+}
+#hidehobby_button:hover{
+	float: left;
+	background-color: rgba(0, 0, 0, 1);
+	font-family:'Trebuchet MS',sans-serif;
+	border: none;
+	color: white;
+	padding: 10px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 1px 1px;
 	cursor: pointer;
 }
