@@ -30,8 +30,8 @@
 		<a href="#" id="main_body_link2">gallery.</a>
 	</div>
 	<div id="gallery_body_true">
-	<a href="#introduction" id="true_intro_link">> to introductions.</a>
-	<a href="#referencesx" id="true_refer_link">> to references.</a>
+	<a href="#introductionr" id="true_intro_link">> to introductions.</a>
+	<a href="#references" id="true_refer_link">> to references.</a>
 	</div>
 </div>
 
