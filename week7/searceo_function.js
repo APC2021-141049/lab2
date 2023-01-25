@@ -15,5 +15,8 @@ function intro_hi_change(){
 		ping_sound.play();
 		ping_antiloop = 1;
 	}
-
+	setTimeout(()=> {
+         document.getElementById("main_true_gallery").style.display = "block";
+      }
+      ,3000);
 }

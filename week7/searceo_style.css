@@ -9,6 +9,7 @@ body{
 	position: fixed;
 	width: 1920px;
 	height: 1080px;
+	background-image: url("image/personal_background3.png");
 }
 .intro_body_tab div:target {
 	display: block;
@@ -44,7 +45,6 @@ body{
     top:0px;
     left:0px;
     z-index:1000;
-	background-image: url("image/personal_background3.png");
 	display: none;
 	animation: fadeInBG 2s linear 0s 1 normal forwards, addContent 2s linear 0s 1 normal forwards;
 }
@@ -110,7 +110,7 @@ body{
 #main_true_gallery{
 	position: relative;
     top: 90%;
-	left: 44%;
+	right: 0%;
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(0,0,0,.75);
@@ -121,7 +121,10 @@ body{
     transform: translateY(-50%);
 	font-family: 'Anonymous Pro', monospace;
 	color: white;
-	animation: blinkTextCursor 1000ms steps(44) infinite normal;
+	display: none;
+	letter-spacing: 1px;
+	animation: typewriter 2s steps(13) 0.3s 1 normal both, blinkTextCursor 1000ms steps(13) infinite normal;
+	background-size: cover;
 }
 #main_true_gallery:active{
 	text-decoration: none;
@@ -143,6 +146,10 @@ body{
 @keyframes blinkTextCursor2{
   from{border-right-color: rgba(0,0,0,.75);}
   to{border-right-color: transparent;}
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 7.55em;}
 }
 @keyframes fadeOutBG{
   from{opacity: 1;}
