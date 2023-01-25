@@ -5,9 +5,11 @@ https://stackoverflow.com/questions/1265887/call-javascript-function-on-hyperlin
 https://stackoverflow.com/questions/12991164/maintaining-the-final-state-at-end-of-a-css3-animation
 https://blog.hubspot.com/website/css-fade-in
 https://www.tutorialspoint.com/How-to-delay-a-JavaScript-function-call-using-JavaScript#:~:text=To%20provide%20delay%20in%20JavaScript,things%20of%20setTimeout()%20function.
-
+https://stackoverflow.com/questions/36990273/javascript-two-identical-functions-one-will-not-work
 
 Lessons to Commit
 Overhaul for week7 Website
 JS 22.7
 JS 22.3
+JS 22.10
+JS 18.1

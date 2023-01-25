@@ -261,7 +261,7 @@ body{
 	right: 10%;
     width: 24em;
     margin: 0 auto;
-    border-right: 2px solid rgba(0,0,0,.75);
+    border-left: 2px solid rgba(0,0,0,.75);
     font-size: 180%;
     text-align: center;
     white-space: nowrap;
@@ -271,7 +271,7 @@ body{
 	color: white;
 	display: none;
 	letter-spacing: 1px;
-	animation: typewriter2 2s steps(16) 0.3s 1 normal both, blinkTextCursor 1000ms steps(16) infinite normal;
+	animation: typewriter2 2s steps(16) 0.3s 1 normal both, blinkTextCursor3 1000ms steps(16) infinite normal;
 	background-size: cover;
 }
 #true_refer_link:active{
@@ -313,7 +313,7 @@ body{
 #main_body_link3{
 	position: relative;
     top: 49%;
-	left: 44%;
+	left: 45%;
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(0,0,0,.75);
@@ -347,6 +347,9 @@ body{
   from{border-right-color: rgba(0,0,0,.75);}
   to{border-right-color: transparent;}
 }
+@keyframes blinkTextCursor3{
+  from{border-left-color: rgba(255,255,255,.75);}
+  to{border-left-color: transparent;}
 @keyframes typewriter{
   from{width: 0;}
   to{width: 7.55em;}

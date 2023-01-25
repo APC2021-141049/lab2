@@ -33,6 +33,12 @@
 	<a href="#introductionr" id="true_intro_link">> to introductions.</a>
 	<a href="#references" id="true_refer_link">> to references.</a>
 	</div>
+	<div id="refer_body_main">
+		<a href="#" id="main_body_link3">references.</a>
+	</div>
+	<div id="refer_body_true">
+	<a href="#gallery" id="true_gallery_link2">> to gallery.</a>
+	</div>
 </div>
 
 </body>

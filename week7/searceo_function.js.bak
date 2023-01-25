@@ -101,7 +101,7 @@ function referChange(){
 	setTimeout(()=> {
 		document.getElementById("true_gallery_link2").style.display = "block";
       }
-      ,3000);
+      ,2000);
 }
 /* References to Gallery Onclick */
 function gallReturn(){
