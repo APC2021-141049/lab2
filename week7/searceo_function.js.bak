@@ -1,13 +1,13 @@
 //Backend Function Week7//
 
 /* Intro Link Onclick */
-var intro_hi = document.getElementById('intro_body_link');
-intro_hi.onclick = intro_hi_change;
-
+document.getElementById("intro_body_link").addEventListener("click", introChange);
+document.getElementById("true_gallery_link").addEventListener("click", gallChange);
 var ping_sound = document.getElementById("ping_audio");
 ping_antiloop = 0;
+gall_ping_antiloop = 0;
 
-function intro_hi_change(){
+function introChange(){
 	document.getElementById('main_body_main').style.display = "block";
 	document.getElementById('main_body_true').style.display = "block";
 	document.getElementById('intro_body_main').style.display = "none";
@@ -16,7 +16,27 @@ function intro_hi_change(){
 		ping_antiloop = 1;
 	}
 	setTimeout(()=> {
-         document.getElementById("main_true_gallery").style.display = "block";
+        document.getElementById("true_gallery_link").style.display = "block";
       }
-      ,4000);
+      ,2000);
 }
+/* Intro to Gallery Onclick */
+function gallChange(){
+	document.getElementById('gallery_body_main').style.display = "block";
+	document.getElementById('gallery_body_true').style.display = "block";
+	document.getElementById('main_body_true').style.display = "none";
+	if (gall_ping_antiloop == 0){
+		ping_sound.play();
+		gall_ping_antiloop = 1;
+		ping_antiloop = 0;
+	}
+	setTimeout(()=> {
+		document.getElementById("true_intro_link").style.display = "block";
+      }
+      ,2000);
+	setTimeout(()=> {
+		document.getElementById("true_refer_link").style.display = "block";
+      }
+      ,3000);
+}
+/* Gallery to Intro Onclick */

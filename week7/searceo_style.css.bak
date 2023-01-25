@@ -9,7 +9,8 @@ body{
 	position: fixed;
 	width: 1920px;
 	height: 1080px;
-	background-image: url("image/personal_background3.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .intro_body_tab div:target {
 	display: block;
@@ -18,7 +19,7 @@ body{
 #intro_body_main{
 	opacity:1;
     position:fixed;
-    width:1950px;
+    width:1941px;
     height:1080px;
     top:0px;
     left:0px;
@@ -28,7 +29,7 @@ body{
 #main_body_main{
 	opacity:1;
     position:fixed;
-    width:1950px;
+    width:1941px;
     height:1080px;
     top:0px;
     left:0px;
@@ -40,12 +41,12 @@ body{
 #main_body_true{
 	opacity:1;
     position:fixed;
-    width:1950px;
+    width:1941px;
     height:1080px;
     top:0px;
     left:0px;
     z-index:1000;
-
+	background-image: url("image/personal_background3.png");
 	display: none;
 	animation: fadeInBG 2s linear 0s 1 normal forwards, addContent 2s linear 0s 1 normal forwards;
 }
@@ -78,6 +79,37 @@ body{
 #intro_body_link:visited{
 	text-decoration: none;
 }
+#true_intro_link{
+	position: relative;
+    top: 90%;
+	right: 80%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(0,0,0,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+	font-family: 'Anonymous Pro', monospace;
+	color: white;
+	display: none;
+	letter-spacing: 1px;
+	animation: typewriter3 2s steps(17) 0.3s 1 normal both, blinkTextCursor 1000ms steps(17) infinite normal;
+	background-size: cover;
+}
+#true_intro_link:active{
+	text-decoration: none;
+}
+#true_intro_link:hover{
+	text-decoration: none;
+}
+#true_intro_link:link{
+	text-decoration: none;
+}
+#true_intro_link:visited{
+	text-decoration: none;
+}
 /* Main Link */
 #main_body_link{
 	position: relative;
@@ -108,10 +140,10 @@ body{
 	text-decoration: none;
 }
 /* Gallery Link */
-#main_true_gallery{
+#true_gallery_link{
 	position: relative;
     top: 90%;
-	right: 0%;
+	left: 0%;
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(0,0,0,.75);
@@ -127,16 +159,100 @@ body{
 	animation: typewriter 2s steps(13) 0.3s 1 normal both, blinkTextCursor 1000ms steps(13) infinite normal;
 	background-size: cover;
 }
-#main_true_gallery:active{
+#true_gallery_link:active{
 	text-decoration: none;
 }
-#main_true_gallery:hover{
+#true_gallery_link:hover{
 	text-decoration: none;
 }
-#main_true_gallery:link{
+#true_gallery_link:link{
 	text-decoration: none;
 }
-#main_true_gallery:visited{
+#true_gallery_link:visited{
+	text-decoration: none;
+}
+#main_body_link2{
+	position: relative;
+    top: 47.5%;
+	left: 46%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(0,0,0,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+	font-family: 'Anonymous Pro', monospace;
+	color: black;
+	animation: blinkTextCursor2 1000ms steps(44) infinite normal;
+}
+#main_body_link2:active{
+	text-decoration: none;
+}
+#main_body_link2:hover{
+	text-decoration: none;
+}
+#main_body_link2:link{
+	text-decoration: none;
+}
+#main_body_link2:visited{
+	text-decoration: none;
+}
+#gallery_body_main{
+	opacity:1;
+    position:fixed;
+    width:1941px;
+    height:1080px;
+    top:0px;
+    left:0px;
+    z-index:1000;
+	background-image: url("image/personal_background2.png");
+	display: none;
+	animation: fadeOutBG2 2s linear 0s 1 normal forwards, removeContent2 2s linear 0s 1 normal forwards;
+}
+#gallery_body_true{
+	opacity:1;
+    position:fixed;
+    width:1941px;
+    height:1080px;
+    top:0px;
+    left:0px;
+    z-index:1000;
+	background-image: url("image/personal_background3.png");
+	display: none;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards, addContent2 2s linear 0s 1 normal forwards;
+}
+/* References Link */
+#true_refer_link{
+	position: relative;
+    top: 90%;
+	left: 80%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(0,0,0,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+	font-family: 'Anonymous Pro', monospace;
+	color: white;
+	display: none;
+	letter-spacing: 1px;
+	animation: typewriter2 2s steps(16) 0.3s 1 normal both, blinkTextCursor 1000ms steps(16) infinite normal;
+	background-size: cover;
+}
+#true_refer_link:active{
+	text-decoration: none;
+}
+#true_refer_link:hover{
+	text-decoration: none;
+}
+#true_refer_link:link{
+	text-decoration: none;
+}
+#true_refer_link:visited{
 	text-decoration: none;
 }
 /* Animation */
@@ -152,6 +268,14 @@ body{
   from{width: 0;}
   to{width: 7.55em;}
 }
+@keyframes typewriter2{
+  from{width: 0;}
+  to{width: 9.35em;}
+}
+@keyframes typewriter3{
+  from{width: 0;}
+  to{width: 11.05em;}
+}
 @keyframes fadeOutBG{
   from{opacity: 1;}
   to{opacity: 0;}
@@ -165,6 +289,22 @@ body{
   to{opacity: 1;}
 }
 @keyframes addContent{
+  from{display: none;}
+  to{display: block;}
+}
+@keyframes fadeOutBG2{
+  from{opacity: 1;}
+  to{opacity: 0;}
+}
+@keyframes removeContent2{
+  from{display: block;}
+  to{display: none;}
+}
+@keyframes fadeInBG2{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+@keyframes addContent2{
   from{display: none;}
   to{display: block;}
 }
