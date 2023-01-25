@@ -82,7 +82,6 @@ body{
 #true_intro_link{
 	position: relative;
     top: 90%;
-	right: 80%;
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(0,0,0,.75);
@@ -227,7 +226,6 @@ body{
 #true_refer_link{
 	position: relative;
     top: 90%;
-	left: 80%;
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(0,0,0,.75);
