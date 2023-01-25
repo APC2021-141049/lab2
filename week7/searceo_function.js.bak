@@ -8,8 +8,6 @@ var ping_sound = document.getElementById("ping_audio");
 ping_antiloop = 0;
 
 function intro_hi_change(){
-	document.getElementById('intro_body_link').innerHTML = "hi.";
-	document.getElementById('intro_body_link').style.left = "48%";
 	document.getElementById('main_body_main').style.display = "block";
 	document.getElementById('intro_body_main').style.display = "none";
 	if (ping_antiloop == 0){

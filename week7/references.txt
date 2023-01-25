@@ -1,3 +1,10 @@
+https://stackoverflow.com/questions/3250790/making-a-div-that-covers-the-entire-page
+https://www.pinterest.ph/pin/792211390679253802/
+https://css-tricks.com/snippets/css/typewriter-effect/
+https://stackoverflow.com/questions/1265887/call-javascript-function-on-hyperlink-click
+https://stackoverflow.com/questions/12991164/maintaining-the-final-state-at-end-of-a-css3-animation
+https://blog.hubspot.com/website/css-fade-in
+
 Lessons to Commit
 Overhaul for week7 Website
 JS 22.7,

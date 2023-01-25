@@ -9,6 +9,7 @@ ping_antiloop = 0;
 
 function intro_hi_change(){
 	document.getElementById('main_body_main').style.display = "block";
+	document.getElementById('main_body_true').style.display = "block";
 	document.getElementById('intro_body_main').style.display = "none";
 	if (ping_antiloop == 0){
 		ping_sound.play();

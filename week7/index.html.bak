@@ -20,7 +20,10 @@
 	<script type = "text/javascript" src = "searceo_function.js"></script>
 	</div>
 	<div id="main_body_main">
-		<p id="main_body_link">hi.</p>
+		<a href="#" id="main_body_link">hi.</a>
+	</div>
+	<div id="main_body_true">
+		<a href="#" id="main_true_gallery">hi.</a>
 	</div>
 </div>
 
