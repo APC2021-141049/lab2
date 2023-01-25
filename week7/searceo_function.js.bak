@@ -1,56 +1,20 @@
-//Backend Function//
-var port_works = document.getElementById("porter_audio"); 
-var hiddenbooey = document.getElementById("hidehobby_booey");
+//Backend Function Week7//
 
-port_works.volume = 0.7;
+/* Intro Link Onclick */
+var intro_hi = document.getElementById('intro_body_link');
+intro_hi.onclick = intro_hi_change;
 
-port_song = 0;
-mum_song = 0;
+var ping_sound = document.getElementById("ping_audio");
+ping_antiloop = 0;
 
-function playAudio1() { 
-	port_song = 1;
-	port_works.play();
-	if (mum_song == 1){
-		document.getElementById("profile_img2").src="image/mumport_picture.png";
-	} else {
-	document.getElementById("profile_img2").src="image/porter_picture.png";
+function intro_hi_change(){
+	document.getElementById('intro_body_link').innerHTML = "hi.";
+	document.getElementById('intro_body_link').style.left = "48%";
+	document.getElementById('main_body_main').style.display = "block";
+	document.getElementById('intro_body_main').style.display = "none";
+	if (ping_antiloop == 0){
+		ping_sound.play();
+		ping_antiloop = 1;
 	}
-} 
 
-function pauseAudio1() {
-	port_song = 0;
-	port_works.pause();
-	if (mum_song == 1){
-		document.getElementById("profile_img2").src="image/mumei_picture.png";
-	} else {
-	document.getElementById("profile_img2").src="image/profile_picture.png";
-	}
 }
-
-var mum_works = document.getElementById("mumei_audio"); 
-mum_works.volume = 0.7;
-
-function playAudio2() { 
-	mum_song = 1;
-	mum_works.play();
-	if (port_song == 1){
-		document.getElementById("profile_img2").src="image/mumport_picture.png";
-	} else {
-	document.getElementById("profile_img2").src="image/mumei_picture.png";
-	}
-} 
-
-function pauseAudio2() { 
-	mum_song = 0;
-	mum_works.pause();
-	if (port_song == 1){
-		document.getElementById("profile_img2").src="image/porter_picture.png";
-	} else {
-	document.getElementById("profile_img2").src="image/profile_picture.png";
-	}
-}
-
-function playAudio3() {
-	hiddenbooey.play();
-}
-	
