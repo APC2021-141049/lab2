@@ -23,6 +23,9 @@
 		<a href="#introduction" id="main_body_link">hi.</a>
 	</div>
 	<div id="main_body_true">
+	<!--My Name is Sean Aldrich E. Arceo. I am a student majoring in Cyber Security and Forencics.-->
+	<!--I am currently in Asia Pacific College. I am a 2nd Year student of my College.-->
+	<!--I am a member of the Animation Society Org. I specialize in sound design as a hobby.-->
 	<a href="#gallery" id="true_gallery_link">> to gallery.</a>
 	<script type = "text/javascript" src = "searceo_function.js"></script>
 	</div>
@@ -30,6 +33,9 @@
 		<a href="#" id="main_body_link2">gallery.</a>
 	</div>
 	<div id="gallery_body_true">
+	<!--Place both sound projects-->
+	<!--Place past drawings-->
+	<!--Try to look for HS works-->
 	<a href="#introductionr" id="true_intro_link">> to introductions.</a>
 	<a href="#references" id="true_refer_link">> to references.</a>
 	</div>
@@ -37,7 +43,16 @@
 		<a href="#" id="main_body_link3">references.</a>
 	</div>
 	<div id="refer_body_true">
-	<a href="#gallery" id="true_gallery_link2">> to gallery.</a>
+	<!--Refer to references.txt-->
+	<a href="#galleryr" id="true_gallery_link2">> to gallery.</a>
+	<a href="#forms" id="true_forms_link">> to forms.</a>
+	</div>
+	<div id="form_body_main">
+		<a href="#" id="main_body_link2">gallery.</a>
+	</div>
+	<div id="form_body_true">
+	<!--PHP Form-->
+	<a href="#referencesr" id="true_refer_link2">> to references.</a>
 	</div>
 </div>
 

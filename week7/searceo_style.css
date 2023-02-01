@@ -95,7 +95,7 @@ body{
 	color: white;
 	display: none;
 	letter-spacing: 1px;
-	animation: typewriter3 2s steps(17) 0.3s 1 normal both, blinkTextCursor 1000ms steps(17) infinite normal;
+	animation: typewriter3 2s steps(19) 0.3s 1 normal both, blinkTextCursor 1000ms steps(19) infinite normal;
 	background-size: cover;
 }
 #true_intro_link:active{
@@ -174,7 +174,7 @@ body{
 #true_gallery_link2{
 	position: fixed;
     top: 90%;
-	left: 44%;
+	left: 10%;
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(0,0,0,.75);
@@ -286,6 +286,36 @@ body{
 #true_refer_link:visited{
 	text-decoration: none;
 }
+#true_refer_link2{
+	position: relative;
+    top: 90%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(0,0,0,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+	font-family: 'Anonymous Pro', monospace;
+	color: white;
+	display: none;
+	letter-spacing: 1px;
+	animation: typewriter2 2s steps(16) 0.3s 1 normal both, blinkTextCursor 1000ms steps(16) infinite normal;
+	background-size: cover;
+}
+#true_refer_link2:active{
+	text-decoration: none;
+}
+#true_refer_link2:hover{
+	text-decoration: none;
+}
+#true_refer_link2:link{
+	text-decoration: none;
+}
+#true_refer_link2:visited{
+	text-decoration: none;
+}
 #refer_body_main{
 	opacity:1;
     position: fixed;
@@ -338,6 +368,91 @@ body{
 #main_body_link3:visited{
 	text-decoration: none;
 }
+/* Forms Page */
+#true_forms_link{
+	position: fixed;
+    top: 90%;
+	right: 10%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(0,0,0,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+	font-family: 'Anonymous Pro', monospace;
+	color: white;
+	display: none;
+	letter-spacing: 1px;
+	animation: typewriter5 2s steps(11) 0.3s 1 normal both, blinkTextCursor 1000ms steps(11) infinite normal;
+	background-size: cover;
+}
+#true_forms_link:active{
+	text-decoration: none;
+}
+#true_forms_link:hover{
+	text-decoration: none;
+}
+#true_forms_link:link{
+	text-decoration: none;
+}
+#true_forms_link:visited{
+	text-decoration: none;
+}
+#main_body_link4{
+	position: relative;
+    top: 49%;
+	left: 47%;
+	right: 50%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(0,0,0,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+	font-family: 'Anonymous Pro', monospace;
+	color: black;
+	animation: blinkTextCursor2 1000ms steps(44) infinite normal;
+}
+#main_body_link4:active{
+	text-decoration: none;
+}
+#main_body_link4:hover{
+	text-decoration: none;
+}
+#main_body_link4:link{
+	text-decoration: none;
+}
+#main_body_link4:visited{
+	text-decoration: none;
+}
+#form_body_main{
+	opacity:1;
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:1000;
+	background-image: url("image/personal_background2.png");
+	display: none;
+	animation: fadeOutBG2 2s linear 0s 1 normal forwards, removeContent2 2s linear 0s 1 normal forwards;
+}
+#form_body_true{
+	opacity:1;
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:1000;
+	background-image: url("image/personal_background3.png");
+	display: none;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards, addContent2 2s linear 0s 1 normal forwards;
+}
 /* Animation */
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
@@ -357,16 +472,21 @@ body{
 }
 @keyframes typewriter3{
   from{width: 0;}
-  to{width: 11.05em;}
+  to{width: 11.10em;}
 }
 @keyframes typewriter4{
   from{width: 0;}
   to{width: 7.55em;}
 }
+@keyframes typewriter5{
+  from{width: 0;}
+  to{width: 6.45em;}
+}
 @keyframes fadeOutBG{
   from{opacity: 1;}
   to{opacity: 0;}
 }
+
 @keyframes removeContent{
   from{display: block;}
   to{display: none;}

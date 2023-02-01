@@ -3,12 +3,12 @@
 /* Intro Link Onclick */
 document.getElementById("intro_body_link").addEventListener("click", introChange);
 
-
 var ping_sound = document.getElementById("ping_audio");
 
 ping_antiloop = 0;
 gall_ping_antiloop = 0;
 pall_ping_antiloop = 0;
+fall_ping_antiloop = 0;
 
 function introChange(){
 	document.getElementById('main_body_main').style.display = "block";
@@ -38,6 +38,7 @@ function gallChange(){
 	document.getElementById('refer_body_true').style.display = "none";
 	document.getElementById('true_gallery_link').style.display = "none";
 	document.getElementById("true_gallery_link2").style.display = "none";
+	document.getElementById("true_forms_link").style.display = "none";
 	document.getElementById("true_intro_link").addEventListener("click", introReturn);
 	document.getElementById("true_refer_link").addEventListener("click", referChange);
 	if (gall_ping_antiloop == 0){
@@ -92,6 +93,7 @@ function referChange(){
 	document.getElementById('gallery_body_main').style.display = "none";
 	document.getElementById('gallery_body_true').style.display = "none";
 	document.getElementById("true_gallery_link2").addEventListener("click", gallReturn);
+	document.getElementById("true_forms_link").addEventListener("click", formChange);
 	if (pall_ping_antiloop == 0){
 		ping_sound.play();
 		pall_ping_antiloop = 1;
@@ -102,6 +104,10 @@ function referChange(){
 		document.getElementById("true_gallery_link2").style.display = "block";
       }
       ,2000);
+	  setTimeout(()=> {
+		document.getElementById("true_forms_link").style.display = "block";
+      }
+      ,3000);
 }
 /* References to Gallery Onclick */
 function gallReturn(){
@@ -113,6 +119,7 @@ function gallReturn(){
 	document.getElementById('refer_body_true').style.display = "none";
 	document.getElementById('true_gallery_link').style.display = "none";
 	document.getElementById("true_gallery_link2").style.display = "none";
+	document.getElementById("true_forms_link").style.display = "none";
 	document.getElementById("true_intro_link").addEventListener("click", introReturn);
 	document.getElementById("true_refer_link").addEventListener("click", referChange);
 	if (gall_ping_antiloop == 0){
@@ -127,6 +134,59 @@ function gallReturn(){
       ,2000);
 	setTimeout(()=> {
 		document.getElementById("true_refer_link").style.display = "block";
+      }
+      ,3000);
+}
+/* References to Forms Onclick */
+function formChange(){
+	document.getElementById('form_body_main').style.display = "block";
+	document.getElementById('form_body_true').style.display = "block";
+	document.getElementById('refer_body_main').style.display = "none";
+	document.getElementById('refer_body_true').style.display = "none";
+	document.getElementById('true_gallery_link2').style.display = "none";
+	document.getElementById('true_forms_link').style.display = "none";
+	document.getElementById("true_refer_link2").addEventListener("click", formReturn);
+	if (fall_ping_antiloop == 0){
+		ping_sound.play();
+		fall_ping_antiloop = 1;
+		ping_antiloop = 0;
+		gall_ping_antiloop = 0;
+		pall_ping_antiloop = 0;
+	}
+	setTimeout(()=> {
+        document.getElementById("true_refer_link2").style.display = "block";
+      }
+      ,2000);
+}
+/* Forms to References Onclick */
+function formReturn(){
+	document.getElementById('refer_body_main').style.display = "block";
+	document.getElementById('refer_body_true').style.display = "block";
+	document.getElementById('form_body_main').style.display = "none";
+	document.getElementById('form_body_true').style.display = "none";
+	document.getElementById('main_body_main').style.display = "none";
+	document.getElementById('main_body_true').style.display = "none";
+	document.getElementById('true_gallery_link').style.display = "none";
+	document.getElementById('true_intro_link').style.display = "none";
+	document.getElementById('true_refer_link').style.display = "none";
+	document.getElementById('gallery_body_main').style.display = "none";
+	document.getElementById('gallery_body_true').style.display = "none";
+	document.getElementById("true_refer_link2").style.display = "none";
+	document.getElementById("true_gallery_link2").addEventListener("click", gallReturn);
+	document.getElementById("true_forms_link").addEventListener("click", formChange);
+	if (pall_ping_antiloop == 0){
+		ping_sound.play();
+		pall_ping_antiloop = 1;
+		ping_antiloop = 0;
+		gall_ping_antiloop = 0;
+		fall_ping_antiloop = 0;
+	}
+	setTimeout(()=> {
+		document.getElementById("true_gallery_link2").style.display = "block";
+      }
+      ,2000);
+	  setTimeout(()=> {
+		document.getElementById("true_forms_link").style.display = "block";
       }
       ,3000);
 }
