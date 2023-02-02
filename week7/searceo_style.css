@@ -266,7 +266,7 @@ body{
 }
 #true_gallery_link2{
 	position: fixed;
-    top: 90%;
+    top: 95%;
 	left: 10%;
     width: 24em;
     margin: 0 auto;
@@ -477,7 +477,7 @@ body{
 #works7{
 	position: relative;
 	text-align: left;
-	left: -7%;
+	left: -8%;
 	top: 28.5%;
 	opacity: 0;
 	animation: fadeInBG2 2s linear 0s 1 normal forwards;
@@ -486,7 +486,7 @@ body{
 #works8{
 	position: relative;
 	text-align: left;
-	left: -8%;
+	left: -9.5%;
 	top: 33%;
 	opacity: 0;
 	animation: fadeInBG2 2s linear 0s 1 normal forwards;
@@ -495,7 +495,7 @@ body{
 #works9{
 	position: relative;
 	text-align: left;
-	left: -10%;
+	left: -11%;
 	top: 37.5%;
 	opacity: 0;
 	animation: fadeInBG2 2s linear 0s 1 normal forwards;
@@ -504,8 +504,8 @@ body{
 #works10{
 	position: relative;
 	text-align: left;
-	left: -11.5%;
-	top: 42%;
+	left: -12.5%;
+	top: 40%;
 	opacity: 0;
 	animation: fadeInBG2 2s linear 0s 1 normal forwards;
 	animation-delay: 3.25s;
@@ -624,10 +624,37 @@ body{
 #main_body_link3:visited{
 	text-decoration: none;
 }
+#link_line_ref{
+	font-family: 'Barlow', sans-serif;
+	font-size: 24px;
+	color: white;
+	text-align: center;
+}
+#link_line_ref:active{
+	text-decoration: none;
+}
+#link_line_ref:hover{
+	text-decoration: none;
+}
+#link_line_ref:link{
+	text-decoration: none;
+}
+#link_line_ref:visited{
+	text-decoration: none;
+}
+#works_ref{
+	position: relative;
+	left: 4%;
+	top: 2%;
+	text-align: left;
+	opacity: 0;
+	animation: fadeInBG 4s linear 0s 1 normal forwards;
+	animation-delay: 2s;
+}
 /* Forms Page */
 #true_forms_link{
 	position: fixed;
-    top: 90%;
+    top: 95%;
 	right: 10%;
     width: 24em;
     margin: 0 auto;
@@ -736,7 +763,7 @@ body{
 }
 @keyframes typewriter5{
   from{width: 0;}
-  to{width: 6.45em;}
+  to{width: 6.35em;}
 }
 @keyframes fadeOutBG{
   from{opacity: 1;}

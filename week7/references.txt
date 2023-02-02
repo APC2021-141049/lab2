@@ -11,8 +11,5 @@ https://www.flaticon.com/free-icon/instagram-logo_87390
 https://1000logos.net/soundcloud-logo/
 https://www.flaticon.com/free-icon/facebook-logo-in-circular-shape_44646
 https://www.w3schools.com/jsref/met_audio_pause.asp
-https://www.w3schools.com/js/js_if_else.asp
-https://www.w3schools.com/tags/att_script_src.asp
-https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_lightbulb
 
 Lessons to Commit
