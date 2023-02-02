@@ -2,6 +2,9 @@
 @font-face{
 	font-family: Anonymous Pro, src('fonts/AnonymousPro-Regular.ttf');
 }
+@font-face{
+	font-family: Barlow, src('fonts/Barlow-Regular.ttf');
+}
 html{
 	overflow: hidden;
 }
@@ -16,6 +19,99 @@ body{
 	display: block;
 }
 /* Intro */
+#intro_content1{
+	position: relative;
+	left: 5%;
+	top: 2%;
+	overflow: hidden;
+}
+#profile_picture{
+	float: left;
+	padding-right: 20px;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 1s;
+}
+#intro_content2{
+	position: relative;
+	right: 5%;
+	top: 5%;
+	overflow: hidden;
+}
+#apc_picture{
+	float: right;
+	padding-left: 20px;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 2s;
+}
+#intro_content3{
+	position: relative;
+	left: 5%;
+	top: 8%;
+	overflow: hidden;
+}
+#fl_picture{
+	float: left;
+	padding-right: 20px;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 3s;
+}
+#first_line{
+	font-family: 'Anonymous Pro', monospace;
+	font-size: 36px;
+	color: white;
+	text-align: left;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 1.25s;
+}
+#second_line{
+	font-family: 'Barlow', monospace;
+	font-size: 26px;
+	color: white;
+	text-align: left;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 1.75s;
+}
+#first_line2{
+	font-family: 'Anonymous Pro', monospace;
+	font-size: 36px;
+	color: white;
+	text-align: right;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 2.25s;
+}
+#second_line2{
+	font-family: 'Barlow', monospace;
+	font-size: 26px;
+	color: white;
+	text-align: right;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 2.75s;
+}
+#first_line3{
+	font-family: 'Anonymous Pro', monospace;
+	font-size: 36px;
+	color: white;
+	text-align: left;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 3.25s;
+}
+#second_line3{
+	font-family: 'Barlow', monospace;
+	font-size: 26px;
+	color: white;
+	text-align: left;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 3.75s;
+}
 #intro_body_main{
 	opacity:1;
     position: fixed;
@@ -142,7 +238,7 @@ body{
 /* Gallery Link */
 #true_gallery_link{
 	position: fixed;
-    top: 90%;
+    top: 95%;
 	left: 44%;
     width: 24em;
     margin: 0 auto;
@@ -253,6 +349,169 @@ body{
 	background-image: url("image/personal_background3.png");
 	display: none;
 	animation: fadeInBG2 2s linear 0s 1 normal forwards, addContent2 2s linear 0s 1 normal forwards;
+}
+#link_line{
+	font-family: 'Barlow', monospace;
+	font-size: 18px;
+	color: white;
+	text-align: right;
+}
+#link_line:active{
+	text-decoration: none;
+}
+#link_line:hover{
+	text-decoration: none;
+}
+#link_line:link{
+	text-decoration: none;
+}
+#link_line:visited{
+	text-decoration: none;
+}
+#link_line_mum{
+	font-family: 'Barlow', monospace;
+	font-size: 18px;
+	color: white;
+	text-align: right;
+}
+#link_line_mum:active{
+	text-decoration: none;
+}
+#link_line_mum:hover{
+	text-decoration: none;
+}
+#link_line_mum:link{
+	text-decoration: none;
+}
+#link_line_mum:visited{
+	text-decoration: none;
+}
+#link_line_port{
+	font-family: 'Barlow', monospace;
+	font-size: 18px;
+	color: white;
+	text-align: right;
+}
+#link_line_port:active{
+	text-decoration: none;
+}
+#link_line_port:hover{
+	text-decoration: none;
+}
+#link_line_port:link{
+	text-decoration: none;
+}
+#link_line_port:visited{
+	text-decoration: none;
+}
+#fb_picture{
+	float: left;
+	padding-right: 15px;
+}
+#soundcloud_picture{
+	float: left;
+	padding-right: 15px;
+}
+#fbimg_picture{
+	float: left;
+	padding-right: 15px;
+}
+#mumei_picture{
+	float: left;
+	padding-right: 15px;
+}
+#porter_picture{
+	float: left;
+	padding-right: 15px;
+}
+#works1{
+	position: relative;
+	left: 2%;
+	top: 2%;
+	text-align: left;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 1s;
+}
+#works2{
+	position: relative;
+	text-align: left;
+	top: 6%;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 1.25s;
+}
+#works3{
+	position: relative;
+	text-align: left;
+	left: -2%;
+	top: 10.5%;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 1.5s;
+}
+#works4{
+	position: relative;
+	text-align: left;
+	left: -3.5%;
+	top: 14.5%;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 1.75s;
+}
+#works5{
+	position: relative;
+	text-align: left;
+	left: -5%;
+	top: 19%;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 2s;
+}
+#works6{
+	position: relative;
+	text-align: left;
+	left: -6.5%;
+	top: 24%;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 2.25s;
+}
+#works7{
+	position: relative;
+	text-align: left;
+	left: -7%;
+	top: 28.5%;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 2.5s;
+}
+#works8{
+	position: relative;
+	text-align: left;
+	left: -8%;
+	top: 33%;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 2.75s;
+}
+#works9{
+	position: relative;
+	text-align: left;
+	left: -10%;
+	top: 37.5%;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 3s;
+}
+#works10{
+	position: relative;
+	text-align: left;
+	left: -11.5%;
+	top: 42%;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 3.25s;
 }
 /* References Link */
 #true_refer_link{
