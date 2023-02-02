@@ -1,9 +1,11 @@
 /* Pre-Functions */
 @font-face{
-	font-family: Anonymous Pro, src('fonts/AnonymousPro-Regular.ttf');
+	font-family: Anonymous Pro;
+	src:('fonts/AnonymousPro-Regular.ttf') format('truetype');
 }
 @font-face{
-	font-family: Barlow, src('fonts/Barlow-Regular.ttf');
+	font-family: Barlow;
+	src:('fonts/Barlow-Regular.ttf') format('truetype');
 }
 html{
 	overflow: hidden;

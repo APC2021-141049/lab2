@@ -1,9 +1,11 @@
 /* Pre-Functions */
 @font-face{
-	font-family: Anonymous Pro, src('fonts/AnonymousPro-Regular.ttf');
+	font-family: Anonymous Pro;
+	src:('fonts/AnonymousPro-Regular.ttf') format('truetype');
 }
 @font-face{
-	font-family: Barlow, src('fonts/Barlow-Regular.ttf');
+	font-family: Barlow;
+	src:('fonts/Barlow-Regular.ttf'), format('truetype');
 }
 html{
 	overflow: hidden;
@@ -429,59 +431,89 @@ body{
 	left: 2%;
 	top: 2%;
 	text-align: left;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 1s;
 }
 #works2{
 	position: relative;
 	text-align: left;
 	top: 6%;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 1.25s;
 }
 #works3{
 	position: relative;
 	text-align: left;
 	left: -2%;
 	top: 10.5%;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 1.5s;
 }
 #works4{
 	position: relative;
 	text-align: left;
 	left: -3.5%;
 	top: 14.5%;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 1.75s;
 }
 #works5{
 	position: relative;
 	text-align: left;
 	left: -5%;
 	top: 19%;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 2s;
 }
 #works6{
 	position: relative;
 	text-align: left;
 	left: -6.5%;
 	top: 24%;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 2.25s;
 }
 #works7{
 	position: relative;
 	text-align: left;
 	left: -7%;
 	top: 28.5%;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 2.5s;
 }
 #works8{
 	position: relative;
 	text-align: left;
 	left: -8%;
 	top: 33%;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 2.75s;
 }
 #works9{
 	position: relative;
 	text-align: left;
 	left: -10%;
 	top: 37.5%;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 3s;
 }
 #works10{
 	position: relative;
 	text-align: left;
 	left: -11.5%;
 	top: 42%;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 3.25s;
 }
 /* References Link */
 #true_refer_link{

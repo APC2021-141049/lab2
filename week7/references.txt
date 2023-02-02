@@ -6,10 +6,13 @@ https://stackoverflow.com/questions/12991164/maintaining-the-final-state-at-end-
 https://blog.hubspot.com/website/css-fade-in
 https://www.tutorialspoint.com/How-to-delay-a-JavaScript-function-call-using-JavaScript#:~:text=To%20provide%20delay%20in%20JavaScript,things%20of%20setTimeout()%20function.
 https://stackoverflow.com/questions/36990273/javascript-two-identical-functions-one-will-not-work
+https://www.freecodecamp.org/news/how-to-open-a-link-in-a-new-tab/#:~:text=You%20can%20use%20the%20target,opening%20anchor%20tag%20like%20this.
+https://www.flaticon.com/free-icon/instagram-logo_87390
+https://1000logos.net/soundcloud-logo/
+https://www.flaticon.com/free-icon/facebook-logo-in-circular-shape_44646
+https://www.w3schools.com/jsref/met_audio_pause.asp
+https://www.w3schools.com/js/js_if_else.asp
+https://www.w3schools.com/tags/att_script_src.asp
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_lightbulb
 
 Lessons to Commit
-Overhaul for week7 Website
-JS 22.7
-JS 22.3
-JS 22.10
-JS 18.1
