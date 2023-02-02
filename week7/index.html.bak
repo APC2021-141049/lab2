@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-
 <link rel="stylesheet" type="text/css" href="searceo_style.css" /> 
 <link rel="icon" href="image/profile_picture.png" />
 <title>Profile Page</title>
@@ -96,7 +95,7 @@
 		<audio id="mumei_audio">
 		<source src="audio/mumei.mp3" type="audio/mpeg">
 		</audio>
-		<img src="image/mumei_picture.png" alt="mumei" id="mumei_picture"></img>
+		<img src="image/mumei_picture_p.png" alt="mumei" id="mumei_picture"></img>
 		<a href="#gallery_mumei" id="link_line_mum">" Nanashi Mumei Ch. - Dan Dan Don Don [Remake/Uncanny] "</a>
 		<script src="searceo_function.js"></script>
 		</div>
@@ -104,7 +103,7 @@
 		<audio id="porter_audio">
 		<source src="audio/porter.mp3" type="audio/mpeg">
 		</audio>
-		<img src="image/porter_picture.png" alt="porter" id="porter_picture"></img>
+		<img src="image/porter_picture_p.png" alt="porter" id="porter_picture"></img>
 		<a href="#gallery_porter" id="link_line_port">" Porter Robinson - Sad Machine (WORLDS LIVE) [Remake] "</a>
 		<script src="searceo_function.js"></script>
 		</div>

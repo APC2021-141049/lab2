@@ -1,12 +1,7 @@
 /* Pre-Functions */
-@font-face{
-	font-family: Anonymous Pro;
-	src:('fonts/AnonymousPro-Regular.ttf') format('truetype');
-}
-@font-face{
-	font-family: Barlow;
-	src:('fonts/Barlow-Regular.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Barlow:wght@100;400&display=swap');
+
 html{
 	overflow: hidden;
 }
@@ -70,7 +65,7 @@ body{
 	animation-delay: 1.25s;
 }
 #second_line{
-	font-family: 'Barlow', monospace;
+	font-family: 'Barlow', sans-serif;
 	font-size: 26px;
 	color: white;
 	text-align: left;
@@ -88,7 +83,7 @@ body{
 	animation-delay: 2.25s;
 }
 #second_line2{
-	font-family: 'Barlow', monospace;
+	font-family: 'Barlow', sans-serif;
 	font-size: 26px;
 	color: white;
 	text-align: right;
@@ -106,7 +101,7 @@ body{
 	animation-delay: 3.25s;
 }
 #second_line3{
-	font-family: 'Barlow', monospace;
+	font-family: 'Barlow', sans-serif;
 	font-size: 26px;
 	color: white;
 	text-align: left;
@@ -353,7 +348,7 @@ body{
 	animation: fadeInBG2 2s linear 0s 1 normal forwards, addContent2 2s linear 0s 1 normal forwards;
 }
 #link_line{
-	font-family: 'Barlow', monospace;
+	font-family: 'Barlow', sans-serif;
 	font-size: 18px;
 	color: white;
 	text-align: right;
@@ -371,7 +366,7 @@ body{
 	text-decoration: none;
 }
 #link_line_mum{
-	font-family: 'Barlow', monospace;
+	font-family: 'Barlow', sans-serif;
 	font-size: 18px;
 	color: white;
 	text-align: right;
@@ -389,7 +384,7 @@ body{
 	text-decoration: none;
 }
 #link_line_port{
-	font-family: 'Barlow', monospace;
+	font-family: 'Barlow', sans-serif;
 	font-size: 18px;
 	color: white;
 	text-align: right;
