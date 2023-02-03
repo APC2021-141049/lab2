@@ -26,7 +26,7 @@
 		<div id="intro_content1">
 		<img src="image/profile_picture.png" alt="sean_arceo" id="profile_picture"></img>
 		<p id="first_line">My Name is Sean Aldrich E. Arceo.<br></p>
-		<p id="second_line">I am currently a student majoring in Cyber Security and Forencics.<br></p>
+		<p id="second_line">I am currently a student majoring in Cyber Security and Forensics.<br></p>
 		<p id="second_line">This website was made as a profile page.<br></p>
 		<p id="second_line">The languages used for this website are HTML, CSS, and JavaScript.<br></p>
 		</div>
@@ -134,6 +134,8 @@
 		id="link_line_ref" target="_blank">" JavaScript two identical functions, one will not work "<br><br></a>
 		<a href="https://www.freecodecamp.org/news/how-to-open-a-link-in-a-new-tab/#:~:text=You%20can%20use%20the%20target,opening%20anchor%20tag%20like%20this."
 		id="link_line_ref" target="_blank">" How to open a link in a new tab HTML "<br><br></a>
+		<a href="https://stackoverflow.com/questions/33757049/how-to-add-a-id-tag-in-php-output#:~:text=You%20need%20to%20enclose%20(wrap,give%20id%20to%20that%20div.&text=Also%2C%20no%20need%20for%20brackets,language%20construct%2C%20not%20a%20function.."
+		id="link_line_ref" target="_blank">" How to add an ID tag in a PHP output "<br><br></a>
 		<a href="https://www.flaticon.com/free-icon/instagram-logo_87390"
 		id="link_line_ref" target="_blank">" Instagram Logo edited into Facebook Logo to indicate link leads to image post and not music post "<br><br></a>
 		<a href="https://1000logos.net/soundcloud-logo/"
@@ -156,27 +158,26 @@
 		<a href="#" id="main_body_link4">forms.</a>
 	</div>
 	<div id="form_body_true">
-	<>
-	<?php
+<?php
 $nameErr = $emailErr = $genderErr = $websiteErr = "";
 $name = $email = $gender = $comment = $website = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	if (empty($_POST["name"])) {
-		$nameErr = "Name is required";
+		$nameErr = "<br>Name is required";
 	} else {
 		$name = test_input($_POST["name"]);
 	if (!preg_match("/^[a-zA-Z-' ]*$/",$name)) {
-		$nameErr = "Only letters and white space allowed";
+		$nameErr = "<br>Only letters and white space allowed";
 		}
 	}
   
 	if (empty($_POST["email"])) {
-		$emailErr = "Email is required";
+		$emailErr = "<br>Email is required";
 	} else {
 		$email = test_input($_POST["email"]);
 	if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-		$emailErr = "Invalid email format";
+		$emailErr = "<br>Invalid email format";
 		}
 	}
     
@@ -185,7 +186,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	} else {
 		$website = test_input($_POST["website"]);
 		if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i",$website)) {
-		$websiteErr = "Invalid URL";
+		$websiteErr = "<br>Invalid URL";
 		}    
 	}
 
@@ -196,7 +197,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	}
 
 	if (empty($_POST["gender"])) {
-		$genderErr = "Gender is required";
+		$genderErr = "<br>Gender is required";
 	} else {
 		$gender = test_input($_POST["gender"]);
 	}
@@ -209,43 +210,45 @@ function test_input($data) {
   return $data;
 }
 ?>
-
-<h2>PHP Form Validation Example</h2>
-<p><span class="error">* required field</span></p>
-<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
-  Name: <input type="text" name="name">
+<div id="main_Form_1">
+<p id="main_Form_L1">who are you.</p>
+<p><span class="error">ones marked with * are required</span></p>
+<form id="main_form1_true" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
+  your name.<br> <input id="text_form1" type="text" name="name">
   <span class="error">* <?php echo $nameErr;?></span>
   <br><br>
-  E-mail: <input type="text" name="email">
+  your email.<br> <input id="text_form1" type="text" name="email">
   <span class="error">* <?php echo $emailErr;?></span>
   <br><br>
-  Website: <input type="text" name="website">
+  your website.<br> <input id="text_form1" type="text" name="website">
   <span class="error"><?php echo $websiteErr;?></span>
   <br><br>
-  Comment: <textarea name="comment" rows="5" cols="40"></textarea>
-  <br><br>
-  Gender:
-  <input type="radio" name="gender" value="female">Female
-  <input type="radio" name="gender" value="male">Male
-  <input type="radio" name="gender" value="other">Other
+  do you want to talk?<br> <textarea id="text_form1" name="comment" rows="5" cols="40"></textarea>
+  <br>
+  your gender.<br><br>
+  <div id="main_Form_gender">
+  <input id="gender_form1" type="radio" name="gender" value="female">Female
+  <input id="gender_form1" type="radio" name="gender" value="male">Male
+  <input id="gender_form1" type="radio" name="gender" value="other">Other
   <span class="error">* <?php echo $genderErr;?></span>
-  <br><br>
-  <input type="submit" name="submit" value="Submit">  
+  </div>
+  <br>
+  <input id="submit_form1" type="submit" name="submit" value="this is you...">
 </form>
-
+<div id="main_Form_1_2">
 <?php
-echo "<h2>Your Input:</h2>";
-echo "<p>$name</p>";
-echo "<br>";
-echo "<p>$email</p>";
-echo "<br>";
-echo "<p>$website</p>";
-echo "<br>";
-echo "<p>$comment</p>";
-echo "<br>";
-echo "<p>$gender</p>";
+echo "<br>you are.<br><br>";
 ?>
-	</div>
+</div>
+<div id="main_Form_1_3">
+<?php
+echo "$name...";
+echo "<br>$email...";
+echo "<br>$website...";
+echo "<br>'$comment' is what you said...";
+echo "<br>$gender...";
+?>
+</div>
 	<a href="#referencesr" id="true_refer_link2">> to references.</a>
 	</div>
 </div>

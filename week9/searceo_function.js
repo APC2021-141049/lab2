@@ -237,3 +237,4 @@ function porterPlay(){
 		document.getElementById('mumei_picture').src='image/mumei_picture_p.png';
 	}
 }
+/* Play sound on form submission */

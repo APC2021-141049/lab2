@@ -7,6 +7,8 @@ var ping_sound = document.getElementById("ping_audio");
 var mum_sound = document.getElementById("mumei_audio");
 var port_sound = document.getElementById("porter_audio");
 
+var buttonsnd = new Audio("audio/ping_sound.mp3");
+
 ping_antiloop = 0;
 gall_ping_antiloop = 0;
 pall_ping_antiloop = 0;
@@ -47,12 +49,6 @@ function gallChange(){
 	document.getElementById("true_refer_link").addEventListener("click", referChange);
 	document.getElementById("link_line_mum").addEventListener("click", mumeiPlay);
 	document.getElementById("link_line_port").addEventListener("click", porterPlay);
-	mum_sound.addEventListener('ended', (event) => {
-		document.getElementById('mumei_picture').src='image/mumei_picture_p.png';
-});
-	port_sound.addEventListener('ended', (event) => {
-		document.getElementById('porter_picture').src='image/porter_picture_p.png';
-});
 	if (gall_ping_antiloop == 0){
 		ping_sound.play();
 		gall_ping_antiloop = 1;
@@ -242,4 +238,9 @@ function porterPlay(){
 		document.getElementById('porter_picture').src='image/porter_picture.png';
 		document.getElementById('mumei_picture').src='image/mumei_picture_p.png';
 	}
+}
+/* Play sound on form submission */
+function pingSubmit(){
+	buttonsnd.play();
+	snd.currentTime = 0;
 }

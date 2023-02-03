@@ -11,5 +11,4 @@ https://www.flaticon.com/free-icon/instagram-logo_87390
 https://1000logos.net/soundcloud-logo/
 https://www.flaticon.com/free-icon/facebook-logo-in-circular-shape_44646
 https://www.w3schools.com/jsref/met_audio_pause.asp
-
-Lessons to Commit
+https://stackoverflow.com/questions/33757049/how-to-add-a-id-tag-in-php-output#:~:text=You%20need%20to%20enclose%20(wrap,give%20id%20to%20that%20div.&text=Also%2C%20no%20need%20for%20brackets,language%20construct%2C%20not%20a%20function.
