@@ -2,7 +2,7 @@
 <html>
 <head>
 
-<link rel="stylesheet" type="text/css" href="searceo_style.css" /> 
+<link rel="stylesheet" type="text/css" href="phpmain_style.css" /> 
 <link rel="icon" href="image/profile_picture.png" />
 <title>Profile Page</title>
 
@@ -274,7 +274,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	$conn->close();
 }
 ?>
-	<a link="#" target="_blank">> guests.</a>
+	<a href="guests_SQL/guests.php" target="_blank" id="link_guests"><br>> guests.<br></a>
 </div>
 	<a href="#referencesr" id="true_refer_link2">> to references.</a>
 </div>

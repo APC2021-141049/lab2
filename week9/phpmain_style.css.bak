@@ -840,7 +840,7 @@ body{
 	overflow: hidden;
 	opacity: 0;
 	animation: fadeInBG2 2s linear 0s 1 normal forwards;
-	animation-delay: 6s;
+	animation-delay: 5.5s;
 }
 #link_guests:active{
 	text-decoration: none;

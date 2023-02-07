@@ -27,7 +27,7 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
-        echo "<br> id number: ". $row["id"]. "<br>name: ". $row["fullname"] . "<br>";
+        echo "<br> guest number: ". $row["id"]. "<br>name: ". $row["fullname"] . "<br>";
     }
 } else {
     echo "0 results";

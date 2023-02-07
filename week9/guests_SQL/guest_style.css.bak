@@ -16,7 +16,7 @@ body{
 /* List */
 #main_guest{
 	position: relative;
-	left: 2%;
+	left: 5%;
 	text-align: left;
 	font-family: 'Anonymous Pro', monospace;
 	color: white;
