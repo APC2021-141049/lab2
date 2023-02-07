@@ -248,6 +248,32 @@ echo "<br>$website...";
 echo "<br>'$comment' is what you said...";
 echo "<br>$gender...";
 ?>
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") 
+{
+	$servername = "localhost";
+	$username = "root";
+	$password = "";
+	$dbname = "personalwebsite_forms";
+
+	$conn = new mysqli($servername, $username, $password, $dbname);
+
+	if ($conn->connect_error) {
+	die("Connection failed: " . $conn->connect_error);
+	}
+
+	$sql = "INSERT INTO personalwebsite_who (fullname, email, website, gender)
+	VALUES ('$name', '$email', '$website', '$gender')";
+
+	if ($conn->query($sql) === TRUE) {
+	echo "<br><br>hello. $name";
+	} else {
+	echo "<br>error: " . $sql . "<br>" . $conn->error;
+	}
+
+	$conn->close();
+}
+?>
 </div>
 	<a href="#referencesr" id="true_refer_link2">> to references.</a>
 	</div>

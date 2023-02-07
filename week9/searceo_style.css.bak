@@ -13,7 +13,7 @@ body{
 	background-size: cover;
 }
 .error{
-	color: light-gray;
+	color: #c5c5c5;
 	font-family: 'Barlow', sans-serif;
 	font-size: 12px;
 }
@@ -776,20 +776,20 @@ body{
 	font-size: 18px;
 }
 #main_Form_gender{
-	color: #FFB6C1;
+	color: #7a7a7a;
 }
 #text_form1{
 	border:3px groove;
-	border-color: gray;
-	background-color:black;
+	border-color: #b7b7b7;
+	background-color: #2e2e2e;
 	font-family: 'Barlow', sans-serif;
 	color: white;
 	font-size: 18px;
 }
 #submit_form1{
 	border:3px groove;
-	border-color: gray;
-	background-color:black;
+	border-color: #b7b7b7;
+	background-color: #2e2e2e;
 	font-family: 'Barlow', sans-serif;
 	color: white;
 	font-size: 18px;

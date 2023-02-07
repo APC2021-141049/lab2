@@ -16,6 +16,10 @@ body{
 	color: #c5c5c5;
 	font-family: 'Barlow', sans-serif;
 	font-size: 12px;
+	overflow: hidden;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 5s;
 }
 .intro_body_tab div:target {
 	display: block;
@@ -756,6 +760,10 @@ body{
 	font-family: 'Anonymous Pro', monospace;
 	color: white;
 	font-size: 26px;
+	overflow: hidden;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 4s;
 }
 #main_Form_1_3{
 	position: relative;
@@ -763,17 +771,29 @@ body{
 	font-family: 'Barlow', sans-serif;
 	color: white;
 	font-size: 18px;
+	overflow: hidden;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 4.5s;
 }
 #main_Form_L1{
 	font-family: 'Anonymous Pro', monospace;
 	color: white;
 	font-size: 42px;
+	overflow: hidden;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 2s;
 	
 }
 #main_form1_true{
 	font-family: 'Barlow', sans-serif;
 	color: white;
 	font-size: 18px;
+	overflow: hidden;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 3s;
 }
 #main_Form_gender{
 	color: #7a7a7a;
