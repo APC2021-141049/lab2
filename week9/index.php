@@ -274,6 +274,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	$conn->close();
 }
 ?>
+<a href="#"
+		id="link_line_guests" target="_blank"><br>> know the guests <br></a>
 </div>
 	<a href="#referencesr" id="true_refer_link2">> to references.</a>
 	</div>
