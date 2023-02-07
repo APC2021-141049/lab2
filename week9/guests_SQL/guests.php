@@ -10,9 +10,9 @@
 <div id="main_guest">
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "personalwebsite_forms";
+$username = "webprogss211";
+$password = "webprogss211";
+$dbname = "webprogss211";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -21,7 +21,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT id, fullname, email FROM personalwebsite_who";
+$sql = "SELECT id, fullname, email FROM searceo_guestlist";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {

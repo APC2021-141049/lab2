@@ -252,9 +252,9 @@ echo "<br>$gender...";
 if ($_SERVER["REQUEST_METHOD"] == "POST") 
 {
 	$servername = "localhost";
-	$username = "root";
-	$password = "";
-	$dbname = "personalwebsite_forms";
+	$username = "webprogss211";
+	$password = "webprogss211";
+	$dbname = "webprogss211";
 
 	$conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -262,7 +262,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	die("Connection failed: " . $conn->connect_error);
 	}
 
-	$sql = "INSERT INTO personalwebsite_who (fullname, email, website, gender)
+	$sql = "INSERT INTO searceo_guestlist (fullname, email, website, gender)
 	VALUES ('$name', '$email', '$website', '$gender')";
 
 	if ($conn->query($sql) === TRUE) {
