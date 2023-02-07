@@ -274,11 +274,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	$conn->close();
 }
 ?>
-<a href="D:/wamp64/www/lab2/week9/guests_SQL/guests.php"
-		id="link_line_guests" target="_blank"><br>> know the guests <br></a>
+	<a link="#" target="_blank">> guests.</a>
 </div>
 	<a href="#referencesr" id="true_refer_link2">> to references.</a>
-	</div>
 </div>
 
 </body>

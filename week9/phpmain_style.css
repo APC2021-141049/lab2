@@ -13,7 +13,7 @@ body{
 	background-size: cover;
 }
 .error{
-	color: #c5c5c5;
+	color: pink;
 	font-family: 'Barlow', sans-serif;
 	font-size: 12px;
 	overflow: hidden;
@@ -653,21 +653,21 @@ body{
 #link_line_ref:visited{
 	text-decoration: none;
 }
-#link_line_guests{
+#link_line_guest{
 	font-family: 'Barlow', sans-serif;
 	font-size: 20px;
-	color: #c5c5c5;
+	color: #FBC8FF;
 }
-#link_line_guests:active{
+#link_line_guest:active{
 	text-decoration: none;
 }
-#link_line_guests:hover{
+#link_line_guest:hover{
 	text-decoration: none;
 }
-#link_line_guests:link{
+#link_line_guest:link{
 	text-decoration: none;
 }
-#link_line_guests:visited{
+#link_line_guest:visited{
 	text-decoration: none;
 }
 #works_ref{
@@ -775,7 +775,7 @@ body{
 	position: relative;
 	text-align: center;
 	font-family: 'Anonymous Pro', monospace;
-	color: white;
+	color: pink;
 	font-size: 26px;
 	overflow: hidden;
 	opacity: 0;
@@ -786,12 +786,24 @@ body{
 	position: relative;
 	text-align: center;
 	font-family: 'Barlow', sans-serif;
-	color: white;
+	color: pink;
 	font-size: 18px;
 	overflow: hidden;
 	opacity: 0;
 	animation: fadeInBG2 2s linear 0s 1 normal forwards;
 	animation-delay: 4.5s;
+}
+#main_Form_1_4{
+	position: relative;
+	text-align: center;
+	font-family: 'Barlow', sans-serif;
+	color: pink;
+	font-size: 18px;
+	overflow: hidden;
+	text-decoration: none;
+	opacity: 0;
+	animation: fadeInBG2 2s linear 0s 1 normal forwards;
+	animation-delay: 5s;
 }
 #main_Form_L1{
 	font-family: 'Anonymous Pro', monospace;
